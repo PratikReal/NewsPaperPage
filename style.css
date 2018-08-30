@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+
+}
+
+#navbar{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(209, 15, 15);
+    color: rgb(247, 236, 236);
+    font-size: 20px;
+    padding: 2px 10px;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+#navbarleft{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+#navbarright{
+    display: flex;
+    width: 50%;
+    position: relative;
+    left: 310px;
+
+
+}
+
+#navbarright p span{
+    margin-left: 40px;
+    color: #f3c910;
+    
+
+    
+
+}
+
+
+
+#contain{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+}
+
+#containup{
+    
+    width: 100%;
+    height: 210px;
+
+    padding: 5px;
+}
+
+#containupfirst{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+}
+
+#firstleft{
+    width: 25%;
+    height: inherit;
+    color: rgb(175, 4, 4);
+    display: flex;
+    padding: 30px 30px 0px 30px;
+}
+
+#firstleft h1{
+    font-size: 78px;
+    
+    
+}
+
+#firstleft h5{
+    font-size:22px;
+    position: relative;
+    top: 30px;
+    color: red;
+    left: 10px;
+}
+
+#firstright{
+    width: 75%;
+    height: inherit;
+     background-color: rgb(209, 15, 15);
+
+    
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#firstright  span{
+    position: relative;
+    top: 5px;
+    font-size: 30px;
+    left: 120px;
+    color: white;
+}
+
+#firstright h1{
+
+    font-size: 35px;
+    color: white;
+}
+    
+#subsbtn{
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(190, 9, 9);
+    
+
+}
+
+#containupsecend{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#containupsecend h1 {
+    font-size: 50px;
+    padding: 10px 35px;
+}
+
+#containupsecend h1 span{
+
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    color: rgb(209, 15, 15);
+}
+
+#containupsecend h2 {
+    font-size: 20px;
+    padding: 10px 35px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+    color: rgb(209, 15, 15);
+
+    
+
+    }
+
+
+    #containupsecend h2 span{
+        color: black;
+        
+    padding: 10px;
+    
+        
+    }
+
+
+
+#containmid{
+    width: 100;
+    height: 20%;
+    
+    color: rgb(209, 15, 15);
+    font-size: 20px;
+    border-bottom: 1px solid rgb(224, 218, 218);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+
+
+#containdown{
+    width: 100%;
+    height: 450px;
+    
+    display: flex;
+}
+
+#downleft{
+    width: 65%;
+    height: inherit;
+    padding: 5px 20px;
+    background-color: rgb(252, 246, 246);
+    
+}
+
+#downleft h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+
+#downleft h2 span{
+    font-size: 10px;
+    color: gray;
+    
+
+}
+
+#downleft h2{
+    font-size: 15px;
+}
+
+#imag{
+    width: 500px;
+    height: 370px;
+    background-size: cover;
+    background-image: url('bus2.jpg');
+    background-size: cover;
+    border-bottom: 1px solid rgb(224, 218, 218);
+
+}
+
+#imagb
+{
+    width: 310px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    background-image: url('busblast.jpg');
+    left: 510px;
+    top: -200px;
+}
+
+#downleft p{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -570px;
+    left:515px;
+}
+
+#downright{
+    width: 35%;
+    height: inherit;
+    background-color: white;
+    padding: 0px 20px;
+}
+
+#downrightup{
+    width: 100%;
+    height: 50%;
+    background-color:#ffffff;
+    text-align: center;
+    padding: 5px 30px;
+    
+    border: 1px solid rgb(224, 218, 218);
+    
+    
+}
+
+#downrightup h1{
+    font-size: 30px;
+    padding-bottom: 5px;
+    color: rgb(209, 15, 15);
+}
+
+#downrightup p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+}
+#downrightdown {
+    width: 100%;
+    height: 45%;
+    background-color: #7777e6;
+    background-size: cover;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px 20px;
+    color: rgb(204, 198, 198);
+}
+
+#downrightdown h2{
+    color: rgb(209, 15, 15);
+    position: relative;
+    text-align: right;
+    top: 10px;
+    font-size: 25px;
+}
+
+
